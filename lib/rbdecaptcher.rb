@@ -121,7 +121,9 @@ class Decaptcher
             end
         end
 
-        solve_url(RECAPTCHA_IMAGE + challenge)
+        result = solve_url(RECAPTCHA_IMAGE + challenge)
+        result["challenge"] = challenge
+        result
     end
 
     def req_refund(pic_id)
