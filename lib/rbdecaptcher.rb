@@ -14,11 +14,13 @@ require 'net/http'
 require 'uri'
 require 'cgi'
 
+
 class DecaptcherError < Exception
 end
 
 class ReCaptchaError < Exception
 end
+
 
 class Decaptcher
     VERSION = '1.0'
