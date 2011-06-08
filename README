@@ -1,0 +1,7 @@
+= rbDecaptcher
+
+rbDecaptcher library accepts CAPTCHA images and processes them through the Decaptcher service. 
+
+== Example
+
+See demo.rb
